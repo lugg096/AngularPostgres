@@ -2,7 +2,7 @@ CREATE DATABASE productos_db;
 
 use productos_db;
 
-CREATE table productos1(
+CREATE table productos(
 _id  SERIAL PRIMARY KEY,
 nombre varchar(180),
 descripcion varchar(250),

@@ -1,14 +1,30 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-<div class="container">
-    <a class="navbar-brand" routerLink="/">Postgress</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link active" routerLink="/productos" routerLinkActive="active"><i class="fas fa-mobile-alt"></i> Productos</a>
-      <a class="nav-item nav-link" routerLink="/productos/add" routerLinkActive="active"><i class="fas fa-plus-circle"></i> Add productos</a>
-     </div>
-  </div>
-</div>
-</nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">PostG</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger " routerLink="/productos" routerLinkActive="active"><i class="fas fa-mobile-alt"></i> Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" routerLink="/productos/add" routerLinkActive="active"><i class="fas fa-plus-circle"></i> Add productos</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
